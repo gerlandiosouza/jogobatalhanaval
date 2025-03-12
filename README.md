@@ -1,54 +1,37 @@
-# Batalha Naval
+# Battleship Game
 
-Um jogo simples de Batalha Naval desenvolvido em HTML, CSS e JavaScript.
+🚢 **Battleship Game - A Classic Naval Battle Game** 🔥
 
-## 📌 Descrição
+## 📌 Overview
+This project is a simple web-based Battleship game where the player tries to sink the enemy's fleet by guessing the correct coordinates.
 
-Este projeto é uma implementação interativa do clássico jogo de Batalha Naval. O jogador tenta adivinhar a posição dos navios inimigos em um tabuleiro de 7x7.
+## 🎮 Features
+- Interactive game board
+- Input field for coordinate guesses (e.g., A0, B3)
+- "Fire!" button to attack enemy ships
+- Message display for game progress
 
-## 🎮 Como Jogar
+## 🛠️ Technologies Used
+- **HTML**: Structure of the game board and interface.
+- **CSS**: Basic styling for the game.
+- **JavaScript**: Game logic and interactivity.
 
-1. Digite uma coordenada (ex: `A0`, `B3`, etc.) no campo de entrada.
-2. Clique no botão **"Fogo!"** para disparar um tiro.
-3. Receba feedback imediato sobre seu tiro:
-   - ✅ **Acerto:** Indica que você atingiu um navio.
-   - ❌ **Erro:** Indica que você atirou na água.
-4. Continue atirando até afundar todos os navios!
+## 🚀 How to Play
+1. Open the `index.html` file in your browser.
+2. Enter a coordinate (e.g., "A0") in the input field.
+3. Click the **"Fire!"** button to attack.
+4. The game will display hit or miss messages.
+5. Continue guessing until all ships are sunk!
 
-## 🛠 Tecnologias Utilizadas
+## 📂 Project Files
+- `index.html` → Game structure
+- `style.css` → Styling for the game
+- `script.js` → Game logic
 
-- HTML5
-- CSS3
-- JavaScript
+## 📜 License
+This project is open-source and free to use.
 
-## 📂 Estrutura do Projeto
+Enjoy the game and happy hunting! 🔥🚢
 
-```
-/
-|-- index.html  # Estrutura principal do jogo
-|-- style.css   # Estilização do tabuleiro e interface
-|-- script.js   # Lógica do jogo e interação com o jogador
-```
 
-## 🚀 Como Executar
-
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/batalha-naval.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```sh
-   cd batalha-naval
-   ```
-3. Abra o arquivo `index.html` em seu navegador.
-
-## 📌 Melhorias Futuras
-
-- Implementar modo multiplayer.
-- Adicionar animações para os tiros.
-- Melhorar a interface com efeitos visuais.
-
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
